@@ -67,7 +67,7 @@ a.carouselText:hover {
 }
 .castleImgBox img {
   display: block;
-  transition: .3s ease-in-out;
+  transition: .4s ease-in-out;
   opacity: 1;
   height: 300px;;
   width: 400px;
