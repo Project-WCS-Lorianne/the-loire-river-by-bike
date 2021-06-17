@@ -16,6 +16,10 @@ a:hover, a:active {
   color:rgb(35, 155, 155);
 }
 
+.nav-link {
+
+}
+
 /* To be removed inside the mobile version
 Keeps the carousel aligned with the footer when the window shrinks
 Make this the breakpoint for mobile version?*/
@@ -59,10 +63,7 @@ a.carouselText:hover {
 #map {
   height: 405px;
   width: 100vw;
-  /* width: 660px; */
   display: block;
-  /* border-radius: 6px;
-  border: solid 1px black; */
 }
 
 #inner-map {
@@ -77,7 +78,7 @@ a.carouselText:hover {
   min-width: 660px;
   flex-direction: row;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   background-color:rgb(231, 101, 68);
 }
 
@@ -101,8 +102,10 @@ a.carouselText:hover {
 .contact-form {
   display: flex;
   flex-direction: column;
+  padding-top: 5px;
+  padding-bottom: 10px;
   width: 210px;
-  height: 210px;
+  height: 230px;
   /* border: solid 1px black; */
 }
 
