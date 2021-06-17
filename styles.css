@@ -1,13 +1,29 @@
+/* @media screen and (max-width: 660px) {
+
+Remove carousel, .footer becomes .footer-phone
+} */
+
+body {
+  color:#000000;
+}
 
 a:link, a:visited {
   text-decoration: none;
+  color:rgb(0, 0, 0)
 }
 
 a:hover, a:active {
-  color:rgb(231, 101, 68);
+  color:rgb(35, 155, 155);
 }
 
-.carouselText, .carouselDetail {
+/* To be removed inside the mobile version
+Keeps the carousel aligned with the footer when the window shrinks
+Make this the breakpoint for mobile version?*/
+.min-width-div {
+  min-width: 660px;
+}
+
+a.carouselText, .carouselDetail {
   color : rgb(255, 255, 255);
   margin: 0 60% 0 0;
   white-space: nowrap;
@@ -15,6 +31,10 @@ a:hover, a:active {
   font-size: 43px;
   /* If you block out the .text-block code, unblock this one to make the text visible */
   /* text-shadow: 2px 2px 2px #201f1f; */
+}
+
+a.carouselText:hover {
+  color:rgb(231, 101, 68);
 }
 
 .carouselDetail {
@@ -37,4 +57,139 @@ a:hover, a:active {
 .card-box {
   text-align: center;
   margin-top: 50px;
+}
+
+.footer {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  min-width: 660px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-color:rgb(231, 101, 68);
+  /* border: solid 1px black; */
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  height: 230px;
+  width: 250px;
+  min-width: 150px;
+  text-align: center;
+  /* border: solid 1px black; */
+}
+
+.weatherwidget-io {
+  border-radius: 6px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 210px;
+  height: 210px;
+  /* border: solid 1px black; */
+}
+
+.form-box {
+  width: 200px;
+  margin: 3px;
+  border-radius: 3px;
+}
+
+.social-media {
+  max-height: 35px;
+  max-width: auto;
+  margin: 3px;
+}
+
+.social-media:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+/* social media button shake code */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.copyrights {
+  display: flex;
+  min-width: 660px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-left: 30px;
+  margin-right: 30px;
+  /* font-family:; */
+  padding: 6px;
+  /* border: solid 1px black; */
+}
+
+.small-text {
+  font-size: 11px;
+}
+/* Phone settings */
+
+.footer-phone {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:rgb(231, 101, 68);
+  /* border: solid 1px black; */
+}
+
+/* Dropup Form Button */
+.dropbtn, .contactbtn {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+}
+.dropbtn:hover {
+  background-color:rgb(243, 202, 192);
+  color:rgb(0, 0, 0);
+}
+
+.contactbtn:hover {
+  background-color:rgb(231, 101, 68);
+  color:rgb(0, 0, 0);
+}
+
+#dropup {
+  display: inline-block;
+  position: sticky;
+  top: 20px;
+}
+
+#contact-drop {
+  display: none;
+  position: absolute;
+  background-color:rgb(243, 202, 192);
+  min-width: 200px;
+  min-height: 200px;
+  bottom: 50px;
+  z-index: 1;
+  padding: 10px;
+  border: 1 solid black;
+  border-radius: 6px;
 }
