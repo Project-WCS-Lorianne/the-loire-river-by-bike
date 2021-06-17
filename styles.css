@@ -17,7 +17,8 @@ a:hover, a:active {
 }
 
 .nav-link {
-
+  font-family: 'Comfortaa', cursive;
+  font-style: bold;
 }
 
 /* To be removed inside the mobile version
