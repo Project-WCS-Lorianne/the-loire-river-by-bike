@@ -4,9 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@600;700&display=swap" rel="stylesheet">    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
     <title>Bike Routes</title>
 </head>
 <body>
     
-</body>
-</html>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/icons-logo/bicycle.png" 
+                 alt="logo bicycle" 
+                 width="80px">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="castles.html">Castles</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="route_info.html">Bike Routes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="restaurants.html">Restaurants</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="repair_rental.html">Repairs and Rental</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#footer-box" tabindex="-1">Contact Us</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    
+
+<!-- MAP CODE START-->
+<div id="map">
+    <iframe id="inner-map" src="https://widget-v2.geovelo.fr/iframes/lav/" scrolling="no"></iframe>
+</div>
+<!-- MAP CODE END -->
+
+
+<!-- To be removed in mobile version start-->
+<div class="footer">
+    <div class="footer-box">
+      <a class="weatherwidget-io" href="https://forecast7.com/en/47d390d68/tours/" data-label_1="WEATHER in TOURS" data-label_2="" data-mode="Forecast" data-days="3" data-theme="orange" data-textcolor="#000000" data-font="Ubuntu">WEATHER IN TOURS</a>
+  </div>
+  
+    <div class="footer-box">
+      <div>
+      <a href="#"><img src="assets/icons-logo/instagram.png" alt="Instagram" class="social-media"></a>
+      <a href="#"><img src="assets/icons-logo/twitter.png" alt="Twitter" class="social-media"></a>
+      <a href="#"><img src="assets/icons-logo/youtube.png" alt="Youtube" class="social-media"></a>
+      <br /><br />
+      <h6>+33 06 87 93 22 54</h6>
+      <p><a href="mailto:#">contact@loireriverbybike.com</a>
+      <h6>Loire River by Bike</h6>
+      <small>9 rue Le Crêpe<br>
+      37000 TOURS</small></p>
+    </div>
+    </div>
+  
+    <div id="footer-box">
+      <div class="contact-form">
+        <h6>We'd love to hear from you!</h6>
+        <input class="form-box" type="text" placeholder="Full name"></input>
+        <input class="form-box" type="text" placeholder="Email"></input>
+        <textarea class="form-box" placeholder="Message" style="height: 100px"></textarea>
+        <button href="#" class="contactbtn" style="width: 220px; margin: 3px">Send</button></div>
+      </div>
+    </div>
+  <!-- To be removed in mobile version end-->
+  
+  <!-- To be removed in big screen version start-->
+  <!-- <div class="footer-phone">
+    <div>
+      <div id="dropup">
+        <button class="dropbtn" onclick="popForm()">Contact</button>
+        <div id="contact-drop">
+          <input class="form-box" type="text" placeholder="Full name" style="width: 200px; margin: 5px"></input><br>
+          <input class="form-box" type="text" placeholder="Email" style="width: 200px; margin: 5px"></input><br>
+          <textarea class="form-box" placeholder="Message" style="width: 200px; height: 100px; margin: 5px"></textarea><br>
+          <button href="#" class="contactbtn">Send</button></div>
+      </div>
+    </div>
+  
+    <div>
+      <a href="#"><img src="assets/icons-logo/instagram.png" alt="Instagram" class="social-media"></a>
+      <a href="#"><img src="assets/icons-logo/twitter.png" alt="Twitter" class="social-media"></a>
+      <a href="#"><img src="assets/icons-logo/youtube.png" alt="Youtube" class="social-media"></a>
+    </div>
+  </div> -->
+  <!-- To be removed in big screen version end-->
+  
+  <div class="copyrights">
+    <div class="small-text">
+      <h6>www.loreriverbybike.com</h6>
+      @ Copyright 2021, students @ <a href="https://www.wildcodeschool.com/en-GB" target="new">Wild Code School</a>: <a href="https://www.linkedin.com/in/peter-borrow-a356a91a4/" target="new">Peter Borrow</a> & <a href="https://www.linkedin.com/in/lorianne-aguilar/" target="new">Lorianne Aguilar</a>
+    </div>
+    <div class="small-text"><h6 style="color: rgb(126, 126, 126)">icons by</h6>
+      <a href="https://www.freepik.com" target="new">freepik</a> •
+      <a href="https://www.flaticon.com/" target="new">flaticon</a> •
+      <a href="https://www.flaticon.com/authors/mangsaabguru" target="new">mangsaabguru</a> •
+      <a href="https://www.flaticon.com/authors/srip" target="new">srip</a>
+    </div>
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="script.js"></script>
+  </body>
+  </html>
