@@ -1,5 +1,4 @@
 /* @media screen and (max-width: 660px) {
-
 Remove carousel, .footer becomes .footer-phone
 } */
 
@@ -103,15 +102,16 @@ a.carouselText:hover {
 .contact-form {
   display: flex;
   flex-direction: column;
+  text-align: center;
   padding-top: 5px;
   padding-bottom: 10px;
-  width: 210px;
+  width: 230px;
   height: 230px;
   /* border: solid 1px black; */
 }
 
 .form-box {
-  width: 200px;
+  width: 220px;
   margin: 3px;
   border-radius: 3px;
 }
