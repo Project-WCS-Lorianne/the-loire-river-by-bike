@@ -1,5 +1,5 @@
 /* @media screen and (max-width: 660px) {
-Remove carousel, .footer becomes .footer-phone
+Remove carousel, SEE: mobile code tag at the bottom
 } */
 
 body {
@@ -26,13 +26,10 @@ a:hover, a:active {
   font-style: bold;
 }
 
-/* To be removed inside the mobile version
-Keeps the carousel aligned with the footer when the window shrinks
-Make this the breakpoint for mobile version?*/
+/*carousel modifications*/
 .min-width-div {
   min-width: 660px;
 }
-
 a.carouselText, .carouselDetail {
   color : rgb(255, 255, 255);
   margin: 0 60% 0 0;
@@ -40,26 +37,15 @@ a.carouselText, .carouselDetail {
   font-weight : bold;
   font-size: 43px;
 }
-
 a.carouselText:hover {
   color:rgb(231, 101, 68);
 }
-
 .carouselDetail {
   color : rgb(219, 218, 218);
   font-weight : 0;
   text-align: left;
   font-size: 20px;
 }
-
-.pages_cover {
-  width: 100%;
-  height: 500px;
-  background-position:center;
-  display: flex;
-  background-size: cover;
-}
-
 .text-block {
   background-color: rgb(0, 0, 0);
   padding-bottom: 8px;
@@ -69,12 +55,23 @@ a.carouselText:hover {
   border-radius: 6px;
 }
 
+/*cover images*/
+.pages_cover {
+  width: 100%;
+  height: 500px;
+  background-position:center;
+  display: flex;
+  background-size: cover;
+}
+
+
+/*generic box for text/contents*/
 .card-box {
   text-align: center;
   margin-top: 50px;
 }
 
-/* castle page cards start*/
+/* castle page cards*/
 .castle-card-box {
   text-align: center;
   margin-top: 50px;
@@ -146,19 +143,19 @@ a.carouselText:hover {
   transform: translate(-50%, -50%);
   text-align: center;
 }
-/* Castle page cards end */
 
+/*route pages map mods*/
 #map {
   height: 405px;
   width: 100%;
   display: block;
 }
-
 #inner-map {
   width: 100%;
   height: 400px;
 }
 
+/*footer*/
 .footer {
   display: flex;
   padding: 10px;
@@ -170,7 +167,6 @@ a.carouselText:hover {
   align-items: center;
   background-color:rgb(231, 101, 68);
 }
-
 .footer-box {
   display: flex;
   flex-direction: column;
@@ -182,12 +178,11 @@ a.carouselText:hover {
   text-align: center;
   /* border: solid 1px black; */
 }
-
+/*weather block*/
 .weatherwidget-io {
   border-radius: 6px;
   border: 1px solid rgb(0, 0, 0);
 }
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -198,19 +193,17 @@ a.carouselText:hover {
   height: 230px;
   /* border: solid 1px black; */
 }
-
 .form-box {
   width: 220px;
   margin: 3px;
   border-radius: 3px;
 }
-
+/*social media icon links box*/
 .social-media {
   max-height: 35px;
   max-width: auto;
   margin: 3px;
 }
-
 .social-media:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;
@@ -230,6 +223,7 @@ a.carouselText:hover {
   100% { transform: translate(1px, -2px) rotate(-1deg); }
 }
 
+/*copyright section*/
 .copyrights, .copyrights-mobile {
   display: flex;
   flex-direction: row;
@@ -242,14 +236,15 @@ a.carouselText:hover {
   padding: 6px;
   /* border: solid 1px black; */
 }
-
 .small-text {
   font-size: 11px;
 }
 
 
+
 /* Mobile settings */
 
+/*footer*/
 .footer-phone {
   display: flex;
   padding: 10px;
@@ -274,18 +269,15 @@ a.carouselText:hover {
   background-color:rgb(26, 145, 145);
   color:rgb(255, 255, 255);
 }
-
 .contactbtn:hover {
   background-color:rgb(26, 145, 145);
   color:rgb(255, 255, 255);
 }
-
 #dropup {
   display: inline-block;
   position: sticky;
   top: 20px;
 }
-
 #contact-drop {
   display: none;
   position: absolute;
@@ -299,12 +291,12 @@ a.carouselText:hover {
   border-radius: 6px;
 }
 
-.small-text-mobile {
-  font-size: 14px;
-}
-
+/*copyrights*/
 .copyrights-mobile {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+.small-text-mobile {
+  font-size: 14px;
 }
