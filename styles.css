@@ -180,17 +180,22 @@ a.carouselText:hover {
 }
 /*weather block*/
 .weatherwidget-io {
+  display: block;
   border-radius: 6px;
   border: 1px solid rgb(0, 0, 0);
+  height: 240px;
 }
 .contact-form {
   display: flex;
   flex-direction: column;
+  align-items: center;
   text-align: center;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  padding-left: 10px;
+  padding: 10px;
+  background-color:rgb(255, 179, 160); 
+  border-radius: 6px;
   width: 230px;
-  height: 230px;
+  height: 240px;
   /* border: solid 1px black; */
 }
 .form-box {
@@ -229,7 +234,7 @@ a.carouselText:hover {
   flex-direction: row;
   box-sizing: border-box;
   justify-content: space-between;
-  align-items: flex-end;
+  align-items: flex-start;
   margin-left: 40px;
   margin-right: 40px;
   /* font-family:; */
@@ -237,9 +242,20 @@ a.carouselText:hover {
   /* border: solid 1px black; */
 }
 .small-text {
-  font-size: 11px;
+  font-size: 13px;
+  margin-top: 10px;
+  color: rgb(126, 126, 126)
+  /* border: solid 1px black; */
 }
-
+.our-names {
+  font-family: 'Comfortaa', cursive;
+  margin-top: 7px;
+  font-size: 17px;
+}
+a.our-names:hover {
+  color:rgb(231, 101, 68);
+  font-style: underline;
+}
 
 
 /* Mobile settings */
@@ -296,6 +312,7 @@ a.carouselText:hover {
   text-align: center;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10px;
 }
 .small-text-mobile {
   font-size: 14px;
