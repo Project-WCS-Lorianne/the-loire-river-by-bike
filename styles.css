@@ -61,10 +61,12 @@ a.carouselText:hover {
   
   
 }
-  
-  
 
-
+.information-heading {
+  text-align: center;
+  margin-top: 3em;
+}
+  
 .card {
   height: 25em;
   width: 40%;
@@ -72,6 +74,14 @@ a.carouselText:hover {
   border: red solid 1px;
   text-align: center;
 }
+
+.card-img {
+  
+  
+}
+  
+
+
 
 #map {
   height: 405px;
