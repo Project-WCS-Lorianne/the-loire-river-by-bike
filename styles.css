@@ -172,31 +172,34 @@ a.carouselText:hover {
   flex-direction: column;
   align-content: center;
   padding: 10px;
-  height: 230px;
+  height: 260px;
   width: 250px;
   min-width: 150px;
   text-align: center;
   /* border: solid 1px black; */
 }
 /*weather block*/
-.weatherwidget-io {
-  display: block;
+.weatherwidget {
   border-radius: 6px;
   border: 1px solid rgb(0, 0, 0);
-  height: 240px;
+  background-color:rgb(255, 179, 160); 
+  padding: 10px;
+  height: 260px;
+}
+h8 {
+  font-family: 'Comfortaa', cursive;
 }
 .contact-form {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-left: 10px;
   padding: 10px;
   background-color:rgb(255, 179, 160); 
   border-radius: 6px;
   width: 230px;
   height: 240px;
-  /* border: solid 1px black; */
+  border: 1px solid rgb(0, 0, 0);
 }
 .form-box {
   width: 220px;
