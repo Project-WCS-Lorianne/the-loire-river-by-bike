@@ -14,28 +14,28 @@ const castleCards = document.querySelector(".castle-cards");
 const castleCardInfo = [
   {
     name: "Azray-le-Rideau",
-    picture: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/azray-le-rideau.jpg",
-    picture2: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/2azray.jpg"
+    picture: "assets/images/azray-le-rideau.jpg",
+    picture2: "assets/images/2azray.jpg"
   },
   {
     name: "Chenonceau",
-    picture: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/chenonceau.jpg",
-    picture2: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/3chenonceau.jpg"
+    picture: "assets/images/chenonceau.jpg",
+    picture2: "assets/images/3chenonceau.jpg"
   },
   {
     name: "Château Chaumont",
-    picture: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/chaumont.jpg",
-    picture2: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/4chaumont.jpg"
+    picture: "assets/images/chaumont.jpg",
+    picture2: "assets/images/4chaumont.jpg"
   },
   {
     name: "Royal de Blois",
-    picture: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/royal-de-blois.jpg",
-    picture2: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/5blois.jpg"
+    picture: "assets/images/royal-de-blois.jpg",
+    picture2: "assets/images/5blois.jpg"
   },
   {
     name: "Chambord",
-    picture: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/chambord.jpg",
-    picture2: "https://raw.githubusercontent.com/Project-WCS-Lorianne/the-loire-river-by-bike/feature/carousel/assets/images/6chambord.jpg"
+    picture: "assets/images/chambord.jpg",
+    picture2: "assets/images/6chambord.jpg"
   }
 ];
 
