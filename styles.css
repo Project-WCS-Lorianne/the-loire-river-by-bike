@@ -55,30 +55,76 @@ a.carouselText:hover {
   border-radius: 6px;
 }
 
-.information-cards {
-  display:flex;
-  justify-content: space-around;
+/*Styling for information cards*/
+
+.heading-top {
+  text-align: center;
+  margin-top: 5em
+}
+  
+.heading-bottom {
+  text-align: center;
+  
+}
+ 
+
+.information-card {
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  height: 30em;
+  margin: 5em;
+}
+
+
+
+.card1, .card2,.card3,.card4{
+  margin: 2em;
+  
+  
   
   
 }
 
-.information-heading {
-  text-align: center;
-  margin-top: 3em;
+.images {
+  border-radius: 20px;
 }
   
-.card {
-  height: 25em;
-  width: 40%;
-  margin: 3em;
-  border: red solid 1px;
-  text-align: center;
-}
 
-.card-img {
   
   
-}
+
+  
+ 
+ 
+  
+
+  
+
+
+
+  
+  
+  
+
+
+
+
+ 
+  
+
+
+  
+
+  
+  
+  
+  
+
+
+
+
+  
+  
   
 
 
