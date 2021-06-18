@@ -74,7 +74,7 @@ a.carouselText:hover {
 /* castle page cards*/
 .castle-card-box {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 .castle-cards {
   display: flex;
