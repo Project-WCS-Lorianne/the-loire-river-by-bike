@@ -150,7 +150,7 @@ a.carouselText:hover {
 
 #map {
   height: 405px;
-  width: 100vw;
+  width: 100%;
   display: block;
 }
 
