@@ -12,19 +12,22 @@ a:link, a:visited {
 }
 
 a:hover, a:active {
-  color:rgb(35, 155, 155);
+  color:rgb(45, 160, 160);
 }
 
 .container{
   display: flex;
   justify-content: flex-start;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .nav-link {
   font-family: 'Comfortaa', cursive;
   font-style: bold;
 }
+/* .navbar-scroll {
+  max-height: 100px;
+} */
 
 /*carousel modifications*/
 .min-width-div {
@@ -63,11 +66,12 @@ a.carouselText:hover {
   display: flex;
   background-size: cover;
 }
-
-
+/* link paths under the cover images*/
+.menu-path {
+  font-size: 13px;
+}
 /*generic box for text/contents*/
 .card-box {
-  text-align: center;
   margin-top: 50px;
 }
 
@@ -180,9 +184,9 @@ a.carouselText:hover {
 }
 /*weather block*/
 .weatherwidget {
-  border-radius: 6px;
-  border: 1px solid rgb(0, 0, 0);
-  background-color:rgb(255, 179, 160); 
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(248, 206, 66); 
   padding: 10px;
   height: 260px;
 }
@@ -195,14 +199,14 @@ h8 {
   align-items: center;
   text-align: center;
   padding: 10px;
-  background-color:rgb(255, 179, 160); 
-  border-radius: 6px;
+  background-color:rgb(248, 206, 66); 
+  border-radius: 10px;
   width: 230px;
   height: 240px;
-  border: 1px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
 }
 .form-box {
-  width: 220px;
+  width: 210px;
   margin: 3px;
   border-radius: 3px;
 }
@@ -254,10 +258,7 @@ h8 {
   font-family: 'Comfortaa', cursive;
   margin-top: 7px;
   font-size: 17px;
-}
-a.our-names:hover {
   color:rgb(231, 101, 68);
-  font-style: underline;
 }
 
 
@@ -285,11 +286,11 @@ a.our-names:hover {
   border-radius: 6px;
 }
 .dropbtn:hover {
-  background-color:rgb(26, 145, 145);
+  background-color:rgb(25, 86, 88);
   color:rgb(255, 255, 255);
 }
 .contactbtn:hover {
-  background-color:rgb(26, 145, 145);
+  background-color:rgb(25, 86, 88);
   color:rgb(255, 255, 255);
 }
 #dropup {
