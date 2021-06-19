@@ -81,6 +81,11 @@ h1 {
   font-family: 'Lexend Deca', sans-serif;
 }
 
+h3 {
+  font-family: 'Comfortaa';
+  color:rgb(45, 160, 160);
+}
+
 /* castle page cards*/
 .castle-card-box {
   text-align: center;
