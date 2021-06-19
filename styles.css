@@ -25,9 +25,6 @@ a:hover, a:active {
   font-family: 'Comfortaa', cursive;
   font-style: bold;
 }
-/* .navbar-scroll {
-  max-height: 100px;
-} */
 
 /*carousel modifications*/
 .min-width-div {
@@ -53,7 +50,7 @@ a.carouselText:hover {
   background-color: rgb(0, 0, 0);
   padding-bottom: 8px;
   padding-left: 9px;
-  width: 650px;
+  width: 660px;
   position: static;
   border-radius: 6px;
 }
@@ -68,11 +65,17 @@ a.carouselText:hover {
 }
 /* link paths under the cover images*/
 .menu-path {
-  font-size: 13px;
+  font-size: 15px;
 }
 /*generic box for text/contents*/
 .card-box {
   margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+h1 {
+  color:rgb(231, 101, 68);
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 /* castle page cards*/
@@ -167,7 +170,7 @@ a.carouselText:hover {
   width: 100%;
   min-width: 660px;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   background-color:rgb(231, 101, 68);
 }
