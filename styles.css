@@ -25,6 +25,9 @@ a:hover, a:active {
   font-family: 'Comfortaa', cursive;
   font-style: bold;
 }
+a.nav-link:hover {
+  color:rgb(45, 160, 160);
+}
 
 /*carousel modifications*/
 .min-width-div {
