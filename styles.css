@@ -279,7 +279,72 @@ h8 {
 }
 
 
-/* Mobile settings */
+
+/* Restaurant Cards */
+.resto-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.resto-cards {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  width: 300px;
+  padding: 5px;
+  border: solid 1px rgb(219, 219, 219);
+  border-radius: 5px;
+}
+.resto-img-box {
+  display: inline-block;
+  position: relative;
+}
+.resto-img-box img {
+  display: block;
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+}
+.info-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.resto-text-title, .resto-text {
+  background: rgb(223, 223, 223);
+  box-sizing: border-box;
+  padding: 5px;
+  font-size: 19px;
+  margin-top: 5px;
+}
+.resto-text {
+  font-size: 16px;
+  padding: 0;
+}
+.resto-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.resto-data-left, .resto-data-right {
+  width: 49%;
+  box-sizing: border-box;
+}
+.resto-address, .price-range, .food-type, .phone-number, .the-hours, .resto-website {
+  background: rgb(231, 231, 231);
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+
+
+
+/* Mobile Settings */
 
 /*hero image*/
 .text-block-mobile {
