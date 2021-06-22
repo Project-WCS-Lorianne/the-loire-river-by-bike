@@ -9,6 +9,13 @@ function popForm(){
         }
 };
 
+/* Weather Map */
+!function(d,s,id){
+  var js,fjs=d.getElementsByTagName(s)[0];
+  if(!d.getElementById(id))
+  {js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+  
+
 /*Castle Cards */
 const castleCards = document.querySelector(".castle-cards");
 const castleCardInfo = [
@@ -79,16 +86,3 @@ function createCastleCards(title, imageURL1, imageURL2) {
 for (let i = 0; i < castleCardInfo.length; i++) {
   createCastleCards(castleCardInfo[i].name, castleCardInfo[i].picture, castleCardInfo[i].picture2);
 };
-
-
-/* Weather Map */
-!function(d,s,id){
-    var js,fjs=d.getElementsByTagName(s)[0];
-    if(!d.getElementById(id)){
-        js=d.createElement(s);
-        js.id=id;
-        js.src='https://weatherwidget.io/js/widget.min.js';
-        fjs.parentNode.insertBefore(js,fjs);
-    }}(document,'script','weatherwidget-io-js');
-
-    
