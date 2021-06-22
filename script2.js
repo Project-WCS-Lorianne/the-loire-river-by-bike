@@ -20,90 +20,99 @@ if(!d.getElementById(id))
 const restoCards = document.querySelector("#resto-cards");
 const restoCardInfo = [
   {
-    name: "Château Langeais",
-    hours: "9 to 5",
+    name: "Vibe",
+    hours: "9 - 14 / 18 - 22",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "16 rue Cordon Bleu",
     website: "site",
     link: "www",
     description: "This is the first castle on the list!",
     picture:
-      "assets/images/langeais.jpg",
-    food: "thai",
+      "assets/images/resto1.jpg",
+    food: "Sandwiches, Fusion, Vegetarian",
     price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
     <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
-  </svg>`
+    </svg>`
   },
   {
-    name: "Azray-le-Rideau",
-    hours: "9 to 5",
+    name: "La Rivière Bleu",
+    hours: "9 - 14 / 18 - 22",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "25 rue St. Clair",
     website: "site",
     link: "www",
     description: "This is the second castle on the list!",
     picture:
-      "assets/images/azray-le-rideau.jpg",
-    food: "thai",
+      "assets/images/resto2.jpg",
+    food: "Traditional French",
     price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
     <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
-  </svg>`
+    </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
+    <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
+    </svg><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
+    <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
+    </svg>`
   },
   {
-    name: "Château Chenonceau",
-    hours: "9 to 5",
+    name: "Brasserie La Bouf",
+    hours: "9 - 14 / 18 - 22",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "5 rue Résistance",
     website: "site",
     link: "www",
     description: "This is the third castle on the list!",
     picture:
-      "assets/images/chenonceau.jpg",
-    food: "thai",
+      "assets/images/resto3.jpg",
+    food: "Burgers, Steak",
     price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
     <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
-  </svg>`
+    </svg> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
+    <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
+    </svg>`
   },
   {
-    name: "Château Chaumont",
-    hours: "9 to 5",
+    name: "Rêve Vert",
+    hours: "9 - 14 / 18 - 22",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "22 rue Marianne",
     website: "site",
     link: "www",
     description: "This is the fourth castle on the list!",
     picture:
-      "assets/images/chaumont.jpg",
-    food: "thai",
+      "assets/images/resto4.jpg",
+    food: "Vegetarian, Vegan",
     price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
     <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
-  </svg>`
+    </svg>`
   },
   {
-    name: "Royal de Blois",
-    hours: "9 to 5",
+    name: "Brasserie Laura",
+    hours: "9 - 14 / 18 - 22",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "48 rue Violet",
     website: "site",
     link: "www",
     description: "This is the fifth castle on the list!",
     picture:
-      "assets/images/royal-de-blois.jpg",
-    food: "thai",
-    price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
+      "assets/images/resto5.jpg",
+    food: "Fusion, Vegetarian, Sea Food",
+    price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
     <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
-  </svg>`
+    </svg>`
   },
   {
-    name: "Château Chambord",
-    hours: "9 to 5",
+    name: "Ma Fôret",
+    hours: "9 - 14",
     phone: "123 456 789",
-    address: "rue patate",
-    link: "http://123.com",
+    address: "5 rue Fragrante",
+    link: "www",
     description: "This is the sixth castle on the list!",
     picture:
-      "assets/images/chambord.jpg",
-    food: "thai",
+      "assets/images/resto6.jpg",
+    food: "Breakfast, Sandwiches, Breads",
+    price: `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-currency-euro" viewBox="0 0 16 16">
+    <path d="M4 9.42h1.063C5.4 12.323 7.317 14 10.34 14c.622 0 1.167-.068 1.659-.185v-1.3c-.484.119-1.045.17-1.659.17-2.1 0-3.455-1.198-3.775-3.264h4.017v-.928H6.497v-.936c0-.11 0-.219.008-.329h4.078v-.927H6.618c.388-1.898 1.719-2.985 3.723-2.985.614 0 1.175.05 1.659.177V2.194A6.617 6.617 0 0 0 10.341 2c-2.928 0-4.82 1.569-5.244 4.3H4v.928h1.01v1.265H4v.928z"/>
+    </svg>`
   }
 ]
 

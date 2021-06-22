@@ -3,7 +3,7 @@ Remove carousel, SEE: mobile code tag at the bottom
 } */
 
 body {
-  color:#000000;
+  color:#2e2e2e;
 }
 
 a:link, a:visited {
@@ -74,6 +74,7 @@ a.carouselText:hover {
 /*generic box for text/contents*/
 .card-box {
   margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -266,6 +267,8 @@ h8 {
   box-sizing: border-box;
   margin-top: 5px;
   padding: 5px;
+  font-size: 13px;
+  color:rgb(104, 31, 9);
 }
 
 

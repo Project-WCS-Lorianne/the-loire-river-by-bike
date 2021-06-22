@@ -22,69 +22,69 @@ function popForm(){
 const repRentCards = document.querySelector("#rep-rent-cards");
 const repRentCardInfo = [
   {
-    name: "azet",
-    hours: "9 to 5",
+    name: "Vélo 2 Go",
+    hours: "9 - 18",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "65 rue Blanc",
     website: "site",
     link: "www",
     description: "This is the first castle on the list!",
     picture:
-      "assets/images/langeais.jpg",
+      "assets/images/rental1.jpg",
   },
   {
-    name: "fds",
-    hours: "9 to 5",
+    name: "Vélo Plaisir",
+    hours: "9 - 18",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "6 rue Rouge",
     website: "site",
     link: "www",
     description: "This is the second castle on the list!",
     picture:
-      "assets/images/azray-le-rideau.jpg",
+      "assets/images/rental2.jpg",
   },
   {
-    name: "hghj",
-    hours: "9 to 5",
+    name: "Rent-a-Bike",
+    hours: "9 - 18",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "7 rue Amandine",
     website: "site",
     link: "www",
     description: "This is the third castle on the list!",
     picture:
-      "assets/images/chenonceau.jpg",
+      "assets/images/rental3.jpg",
   },
   {
-    name: "ytyuty",
-    hours: "9 to 5",
+    name: "Réparation Vélo Coulbert",
+    hours: "9 - 18",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "15 rue Baguette",
     website: "site",
     link: "www",
     description: "This is the fourth castle on the list!",
     picture:
-      "assets/images/chaumont.jpg",
+      "assets/images/repair1.jpg",
   },
   {
-    name: "tetf",
-    hours: "9 to 5",
+    name: "La Grande Rue",
+    hours: "9 - 18",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "4 rue le Général",
     website: "site",
     link: "www",
     description: "This is the fifth castle on the list!",
     picture:
-      "assets/images/royal-de-blois.jpg",
+      "assets/images/repair2.jpg",
   },
   {
-    name: "yuiy",
-    hours: "9 to 5",
+    name: "Bike Repair",
+    hours: "9 - 18",
     phone: "123 456 789",
-    address: "rue patate",
+    address: "23 rue Grammont",
     link: "http://123.com",
     description: "This is the sixth castle on the list!",
     picture:
-      "assets/images/chambord.jpg",
+      "assets/images/repair3.jpg",
   }
 ]
 
