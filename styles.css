@@ -69,6 +69,7 @@ a.carouselText:hover {
 .heading-top {
   text-align: center;
   margin-top: 5em
+}
 /*cover images*/
 .pages_cover {
   width: 100%;
@@ -112,20 +113,24 @@ h3 {
   
   
 .cards-container {
+  height: 30em;
   width: 600px;
- 
 }
-  
-  
+
+
 .card1, .card2,.card3,.card4{
   width: 600px;
-  
-  
+  height: 30em;
+  margin: 2em;
 }
+  
+  
   
 
 .images {
   border-radius: 20px;
+  width: 300px;
+  height: 30em;
   
   
 }
