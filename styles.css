@@ -102,38 +102,22 @@ h3 {
   text-align: center;
   
 }
+ .cards-container {
+   margin: 2em;
+ }
+
+ .card {
+   margin: 10px;
+ }
  
 
-.information-card {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  
-}
-  
-  
-.cards-container {
-  height: 30em;
-  width: 600px;
-}
 
-
-.card1, .card2,.card3,.card4{
-  width: 600px;
-  height: 30em;
-  margin: 2em;
-}
+  
+  
   
   
   
 
-.images {
-  border-radius: 20px;
-  width: 300px;
-  height: 30em;
-  
-  
-}
 
 
 
