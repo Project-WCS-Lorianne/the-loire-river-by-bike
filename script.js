@@ -108,7 +108,7 @@ function createRepRentCards(title, hours, phone, address, link, description, ima
 
   const repRentTextTitle = document.createElement("div");
   repRentTextTitle.classList.add("resto-text-title");
-  repRentTextTitle.innerHTML = `<h6>${title}</h6>`;
+  repRentTextTitle.innerHTML = `<h5>${title}</h5>`;
   repRentInfoBox.appendChild(repRentTextTitle);
 
   const repRentText = document.createElement("div");
@@ -171,4 +171,18 @@ for (let i = 0; i < repRentCardInfo.length; i++) {
     repRentCardInfo[i].description,
     repRentCardInfo[i].picture,
   )
+};
+
+/* Castle Collapse */
+for (let i = 0; i < 6; i++) {
+  const theButton = document.querySelector(`.castle-click-button-${[i]}`);
+  const theList = document.querySelector(`.bottom-castle-content-${[i]}`);
+
+  theButton.addEventListener("click", function(){
+    if(theList.style.display === "none") {
+      theList.style.display = "flex";
+    } else {
+      theList.style.display = "none"
+    }
+  })
 };

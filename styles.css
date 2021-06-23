@@ -259,7 +259,7 @@ h8 {
   margin-top: 5px;
 }
 .resto-text {
-  font-size: 15px;
+  font-size: 14px;
   padding: 0;
 }
 .resto-data {
@@ -293,9 +293,11 @@ h8 {
 }
 .castle-card {
   display: flex;
-  margin: 20px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
   flex-direction: column;
-  width: 40%;
+  width: 60%;
   padding: 5px;
   border: solid 1px rgb(219, 219, 219);
   border-radius: 5px;
@@ -334,39 +336,47 @@ h8 {
 }
 .castle-img-box-text {
   color: rgb(255, 255, 255);
-  font-size: 28px;
+  font-size: 3vw;
   position: absolute;
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
-  top: 60%;
+  margin-top: 30%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
 }
-.castle-click-button {
-  height: 25px; 
-  width: 30px; 
-  margin: 20% auto 0px;
+.castle-click-button-0, .castle-click-button-1, .castle-click-button-2, .castle-click-button-3, .castle-click-button-4, .castle-click-button-5 {
+  height: 2.5vw; 
+  width: 2.5vw; 
+  margin: 1vw auto 0px;
   filter: drop-shadow(1px rgb(0, 0, 0));
 }
-.castle-click-button:hover {
-  filter: drop-shadow(0 1px);
+.castle-click-button-0:hover, .castle-click-button-1:hover, .castle-click-button-2:hover, .castle-click-button-3:hover, .castle-click-button-4:hover, .castle-click-button-5:hover {
+  filter: drop-shadow(0 0);
 }
-.bottom-castle-content {
-  width: 100%;
-  display: flex;
+
+/* BOTTOM CASTLE CARD */
+.bottom-castle-content-0, .bottom-castle-content-1, .bottom-castle-content-2, .bottom-castle-content-3, .bottom-castle-content-4, .bottom-castle-content-5 {
+  width: 60%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  overflow: hidden;
+  display: flex;
 }
 .castle-pop-data {
   width: 100%;
   box-sizing: border-box;
 }
 .castle-pop-text-title {
-  background: rgb(223, 223, 223);
+  background: rgb(248, 241, 236);
   box-sizing: border-box;
+  font-style: bold;
   padding: 5px;
   font-size: 19px;
 }
@@ -384,22 +394,25 @@ h8 {
 .castle-map-box {
   height: auto;
   width: 30%;
-  padding: 5px;
 }
 .castle-map-img {
   height: auto;
   width: 100%;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
 }
 .info-box {
   width: 70%;
-  padding: 5px;
   height: 100%;
 }
 .castle-address, .castle-website, .castle-hours, .castle-phone {
-  background: rgb(231, 231, 231);
+  background: rgb(255, 250, 245);
   box-sizing: border-box;
+  font-size: 13px;
   margin-top: 5px;
   padding: 5px;
+  color:rgb(88, 51, 9);
 }
 
 

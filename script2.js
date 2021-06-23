@@ -85,7 +85,7 @@ const restoCardInfo = [
     price: `€€`
   },
   {
-    name: "Ma Fôret",
+    name: "Café Ma Fôret",
     hours: "9 - 14",
     phone: "123 456 789",
     address: "5 rue Fragrante",
@@ -119,7 +119,7 @@ function createRestoCards(title, hours, phone, address, link, description, image
 
   const restoTextTitle = document.createElement("div");
   restoTextTitle.classList.add("resto-text-title");
-  restoTextTitle.innerHTML = `<h6>${title}</h6>`;
+  restoTextTitle.innerHTML = `<h5>${title}</h5>`;
   restoInfoBox.appendChild(restoTextTitle);
 
   const restoText = document.createElement("div");
@@ -173,7 +173,7 @@ function createRestoCards(title, hours, phone, address, link, description, image
 
  const priceRange = document.createElement("div");
  priceRange.classList.add("resto-price-range");
- priceRange.innerHTML = price;
+ priceRange.innerHTML = `Price range: ${price}`;
  restoDataRight.appendChild(priceRange);
   
   const siteLink = document.createElement("div");
