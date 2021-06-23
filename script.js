@@ -173,16 +173,3 @@ for (let i = 0; i < repRentCardInfo.length; i++) {
   )
 };
 
-/* Castle Collapse */
-for (let i = 0; i < 6; i++) {
-  const theButton = document.querySelector(`.castle-click-button-${[i]}`);
-  const theList = document.querySelector(`.bottom-castle-content-${[i]}`);
-
-  theButton.addEventListener("click", function(){
-    if(theList.style.display === "none") {
-      theList.style.display = "flex";
-    } else {
-      theList.style.display = "none"
-    }
-  })
-};

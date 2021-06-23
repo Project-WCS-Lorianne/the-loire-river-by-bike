@@ -349,6 +349,7 @@ h8 {
 .castle-click-button-0, .castle-click-button-1, .castle-click-button-2, .castle-click-button-3, .castle-click-button-4, .castle-click-button-5 {
   height: 2.5vw; 
   width: 2.5vw; 
+  cursor: pointer;
   margin: 1vw auto 0px;
   filter: drop-shadow(1px rgb(0, 0, 0));
 }
@@ -367,7 +368,7 @@ h8 {
   margin-right: 20px;
   padding: 5px;
   overflow: hidden;
-  display: flex;
+  display: none;
 }
 .castle-pop-data {
   width: 100%;
@@ -382,7 +383,7 @@ h8 {
 }
 .castle-pop-text {
   padding: 0;
-  font-size: 16px;
+  font-size: 14px;
 }
 .castle-pop-data-2 {
   width: 100%;
