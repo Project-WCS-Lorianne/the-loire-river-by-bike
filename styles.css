@@ -97,9 +97,10 @@ h3 {
   font-family: 'Comfortaa';
   color:rgb(45, 160, 160);
 }
-  
+
 .heading-bottom {
   text-align: center;
+  font-family: 'Lexend Deca', sans-serif;
   
 }
  .cards-container {
@@ -108,7 +109,17 @@ h3 {
 
  .card {
    margin: 10px;
- }
+   
+  }
+  
+
+  .card:hover {
+    opacity: 0.5;
+    background-color: lightblue;
+   
+  }
+    
+   
  
 
 
