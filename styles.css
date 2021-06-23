@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* @media screen and (max-width: 660px) {
 Remove carousel, SEE: mobile code tag at the bottom
 } */
@@ -8,8 +9,10 @@ Remove carousel, SEE: mobile code tag at the bottom
   padding: 0;
 }
 
+=======
+>>>>>>> 7c83034d12ab5b722f2235c78c8f15ad69963caf
 body {
-  color:#000000;
+  color:#2e2e2e;
 }
 
 
@@ -22,18 +25,26 @@ a:hover a:active {
   color:rgb(45, 160, 160);
 }
 
-.container{
+.container {
   display: flex;
   justify-content: flex-start;
   flex-direction: column;
+  margin-bottom: 40px;
 }
 
 .nav-link {
   font-family: 'Comfortaa', cursive;
   font-style: bold;
+  font-size: 16px;
 }
 a.nav-link:hover {
   color:rgb(45, 160, 160);
+}
+.logo {
+  height: 60px;
+}
+.navbar-brand {
+  height: 60px;
 }
 
 /*carousel modifications*/
@@ -93,8 +104,8 @@ a.carouselText:hover {
 }
 /*generic box for text/contents*/
 .card-box {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 
 h1 {
@@ -107,6 +118,7 @@ h3 {
   color:rgb(45, 160, 160);
 }
 
+<<<<<<< HEAD
 
 
 .heading-bottom, .heading-top{
@@ -202,6 +214,12 @@ span {
   
 
 
+=======
+.information-cards {
+
+}
+
+>>>>>>> 7c83034d12ab5b722f2235c78c8f15ad69963caf
 
 /*route pages map mods*/
 #map {
@@ -217,7 +235,11 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  margin-top: 50px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
 }
 
 /*footer*/
@@ -297,7 +319,10 @@ h8 {
 }
 
 /*copyright section*/
-.copyrights, .copyrights-mobile {
+.copyrights-mobine {
+  display: none;
+}
+.copyrights {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
@@ -305,9 +330,7 @@ h8 {
   align-items: flex-start;
   margin-left: 40px;
   margin-right: 40px;
-  /* font-family:; */
   padding: 6px;
-  /* border: solid 1px black; */
 }
 .small-text {
   font-size: 13px;
@@ -318,23 +341,259 @@ h8 {
 .our-names {
   font-family: 'Comfortaa', cursive;
   margin-top: 7px;
-  font-size: 17px;
+  font-size: 16px;
   color:rgb(231, 101, 68);
 }
 
 
-/* Mobile settings */
+
+/* Restaurant and Rep/Rent Cards */
+.resto-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.resto-cards {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  width: 300px;
+  padding: 5px;
+  border: solid 1px rgb(129, 122, 115);
+  border-radius: 5px;
+}
+.resto-img-box {
+  display: inline-block;
+  position: relative;
+}
+.resto-img-box img {
+  display: block;
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+}
+.resto-info-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.resto-text-title, .resto-text {
+  background: rgb(248, 241, 236);
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 5px;
+}
+.resto-text {
+  font-size: 14px;
+  padding: 0;
+}
+.resto-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.resto-data-left, .resto-data-right {
+  width: 49%;
+  box-sizing: border-box;
+}
+.resto-address, .resto-price-range, .resto-food-type, .resto-phone-number, .resto-hours, .resto-website {
+  background: rgb(255, 250, 245);
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 13px;
+  color:rgb(88, 51, 9);
+}
+
+
+/* Castle Cards */
+.castle-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.castle-card {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+  width: 80%;
+  padding: 5px;
+  border: solid 1px rgb(219, 219, 219);
+  border-radius: 5px;
+}
+.castle-img-box {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+.castle-img-box img {
+  display: block;
+  border-radius: 8px;
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+  height: auto;
+  width: 100%;
+}
+.castle-img-box:hover img {
+  transform: scale(1.3);
+}
+.castleImgBoxOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.6s ease;
+  background-color: rgba(231, 101, 68, 0.521);
+}
+.castleImgBoxOverlay:hover {
+  opacity: 1;
+}
+.castle-img-box-text {
+  color: rgb(255, 255, 255);
+  font-size: 3vw;
+  position: absolute;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  margin-top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.castle-click-button-0, .castle-click-button-1, .castle-click-button-2, .castle-click-button-3, .castle-click-button-4, .castle-click-button-5 {
+  height: 2.5vw; 
+  width: 2.5vw; 
+  cursor: pointer;
+  margin: 1vw auto 0px;
+  filter: drop-shadow(1px rgb(0, 0, 0));
+}
+.castle-click-button-0:hover, .castle-click-button-1:hover, .castle-click-button-2:hover, .castle-click-button-3:hover, .castle-click-button-4:hover, .castle-click-button-5:hover {
+  filter: drop-shadow(0 0);
+}
+
+/* BOTTOM CASTLE CARD */
+.bottom-castle-content-0, .bottom-castle-content-1, .bottom-castle-content-2, .bottom-castle-content-3, .bottom-castle-content-4, .bottom-castle-content-5 {
+  width: 80%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  overflow: hidden;
+  display: none;
+}
+.castle-pop-data {
+  width: 100%;
+  box-sizing: border-box;
+}
+.castle-pop-text-title {
+  background: rgb(248, 241, 236);
+  box-sizing: border-box;
+  font-style: bold;
+  padding: 5px;
+  font-size: 19px;
+}
+.castle-pop-text {
+  padding: 0;
+  font-size: 14px;
+}
+.castle-pop-data-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.castle-map-box {
+  height: auto;
+  width: 30%;
+}
+.castle-map-img {
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.info-box {
+  width: 70%;
+  height: 100%;
+}
+.castle-address, .castle-website, .castle-hours, .castle-phone {
+  background: rgb(255, 250, 245);
+  box-sizing: border-box;
+  font-size: 13px;
+  margin-top: 5px;
+  padding: 5px;
+  color:rgb(88, 51, 9);
+}
+
+
+
+@media screen and (min-width: 768px) {
+
+.pages_cover_mobile {
+  display: none;
+}
+.footer-phone {
+  display: none;
+}
+.copyrights-mobile {
+  display: none;
+}
+}
+
+
+
+/* Mobile Settings */
+@media screen and (max-width: 768px) {
+
+/*carousel*/
+.min-width-div {
+  display: none;
+}
+.pages_cover_mobile {
+  width: 100%;
+  height: 500px;
+  background-position:center;
+  display: flex;
+  background-size: cover;
+}
 
 /*hero image*/
 .text-block-mobile {
   background-color: rgb(0, 0, 0);
   padding: 8px;
   width: 100%;
-  height: 55px;
+  height: 63px;
   position: sticky;
-  margin-top: 440px;
+  margin-top: 420px;
+}
+.carouselText {
+  color : rgb(231, 101, 68);
+  white-space: nowrap;
+  font-weight : bold;
+  font-size: 5vw;
+  text-align: center;
+  margin: auto;
 }
 
+<<<<<<< HEAD
 
   .footer-phone {
     display: flex;
@@ -347,6 +606,21 @@ h8 {
   
 }
   /*footer*/
+=======
+/*footer*/
+.footer {
+  display: none;
+}
+.footer-phone {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:rgb(231, 101, 68);
+  /* border: solid 1px black; */
+}
+>>>>>>> 7c83034d12ab5b722f2235c78c8f15ad69963caf
 
 /* Dropup Form Button */
 .dropbtn, .contactbtn,.contactbtn-main {
@@ -384,12 +658,58 @@ h8 {
 } 
 
 /*copyrights*/
+.copyrights {
+  display: none;
+}
 .copyrights-mobile {
   text-align: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
   justify-content: center;
   align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
   margin-bottom: 10px;
+  padding: 6px;
+}
+.small-text {
+  font-size: 13px;
+  margin-top: 10px;
+  color: rgb(126, 126, 126)
+}
+.our-names {
+  font-family: 'Comfortaa', cursive;
+  margin-top: 7px;
+  font-size: 12px;
+  color:rgb(231, 101, 68);
+}
+.our-names-2 {
+  display: none;
 }
 .small-text-mobile {
-  font-size: 14px;
+  font-size: 9px;
+}
+h6 {
+  font-size: 13px;
+}
+
+}
+
+
+@media screen and (max-width: 320px) {
+.our-names {
+  display: none;
+}
+.our-names-2 {
+  display: block;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 7px;
+  font-size: 15px;
+  color:rgb(231, 101, 68);
+}
+.carouselText {
+  margin-top: 10px;
+  font-size: 6vw;
+}
 }
