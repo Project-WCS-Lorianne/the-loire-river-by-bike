@@ -551,7 +551,7 @@ h8 {
 }
 
 .castle-img-box-text {
-  font-size: 25px;
+  font-size: 22px;
 }
 .castle-click-button-0, .castle-click-button-1, .castle-click-button-2, .castle-click-button-3, .castle-click-button-4, .castle-click-button-5 {
   height: 20px; 
@@ -684,5 +684,14 @@ h5 {
 }
 .card-box-main {
   padding: 5px;
+}
+.castle-card {
+  width: 100%;
+}
+.bottom-castle-content-0, .bottom-castle-content-1, .bottom-castle-content-2, .bottom-castle-content-3, .bottom-castle-content-4, .bottom-castle-content-5 {
+  width: 100%;
+}
+.castle-img-box-text {
+  font-size: 18px;
 }
 }
