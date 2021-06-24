@@ -344,7 +344,7 @@ h8 {
 /* Castle Cards */
 .castle-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   width: 100%;
@@ -355,7 +355,7 @@ h8 {
   margin-left: 20px;
   margin-right: 20px;
   flex-direction: column;
-  width: 80%;
+  width: 60%;
   padding: 5px;
   border: solid 1px rgb(219, 219, 219);
   border-radius: 5px;
@@ -394,7 +394,7 @@ h8 {
 }
 .castle-img-box-text {
   color: rgb(255, 255, 255);
-  font-size: 3vw;
+  font-size: 2vw;
   position: absolute;
   text-shadow: 1px 1px 3px rgb(0, 0, 0);
   margin-top: 30%;
