@@ -1,0 +1,688 @@
+body {
+  color:#2e2e2e;
+}
+
+a:link, a:visited {
+  text-decoration: none;
+  color:rgb(88, 88, 88)
+}
+
+a:hover, a:active {
+  color:rgb(10, 110, 110);
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.nav-link {
+  font-family: 'Comfortaa', cursive;
+  font-style: bold;
+  font-size: 16px;
+}
+a.nav-link:hover {
+  color:rgb(45, 160, 160);
+}
+.logo {
+  height: 60px;
+}
+.navbar-brand {
+  height: 60px;
+}
+
+/*carousel modifications*/
+.min-width-div {
+  min-width: 660px;
+}
+.carousel-item {
+  height: 400px;
+}
+a.carouselText, .carouselDetail {
+  color :rgb(255, 255, 255);
+  margin: 0px 60% 0px 10px;
+  white-space: nowrap;
+  font-weight : bold;
+  font-size: 43px;
+}
+a.carouselText:hover {
+  color:rgb(231, 101, 68);
+}
+.carouselDetail {
+  color : rgb(219, 218, 218);
+  font-weight : 0;
+  text-align: left;
+  font-size: 20px;
+}
+.text-block {
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 8px;
+  padding-left: 9px;
+  width: 660px;
+  position: static;
+  border-radius: 6px;
+}
+/*cover images*/
+.pages_cover {
+  width: 100%;
+  height: 400px;
+  background-position:center;
+  display: flex;
+  background-size: cover;
+}
+/* link paths under the cover images*/
+.menu-path {
+  font-size: 15px;
+}
+/*generic box for text/contents*/
+.card-box {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.heading-top-1 {
+  display: none;
+}
+
+h1 {
+  color:rgb(231, 101, 68);
+  font-family: 'Comfortaa', sans-serif;
+  margin-top:10px
+}
+.space {
+  margin-top: 50px;
+}
+
+/*main page cards*/
+.cards-container-main {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  margin-top: 20px;
+}
+.card-box-main {
+  width: 300px;
+  height: 350px;
+  padding: 20px;
+}
+.card-image-box-main {
+  background-color:rgb(190, 224, 224);
+  border-radius: 5px;
+  padding: 20px;
+  width: 100%;
+}
+.card-image-box-main:hover {
+  background-color:rgb(45, 160, 160);
+}
+.card-text-box-main {
+  background-color:rgb(250, 216, 185);
+  border-radius: 5px;
+  text-align: center;
+  width: 100%;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+h2 {
+  color:rgb(231, 101, 68);
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: 'Comfortaa';
+  color:rgb(45, 160, 160);
+}
+
+
+/*route pages map mods*/
+#map {
+  height: 405px;
+  width: 100%;
+  display: block;
+}
+#inner-map {
+  width: 100%;
+  height: 400px;
+}
+.route-guide-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+}
+
+/*footer*/
+.footer {
+  display: flex;
+  padding: 10px;
+  height: 300px;
+  width: 100%;
+  min-width: 660px;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color:rgb(224, 108, 79);
+}
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding: 10px;
+  height: 260px;
+  width: 250px;
+  min-width: 150px;
+  text-align: center;
+}
+.dropbtn, .contactbtn,.contactbtn-main {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+}
+.contactbtn:hover {
+  background-color:rgb(69, 157, 161);
+  color:rgb(255, 255, 255);
+}
+
+
+/*weather block*/
+.weatherwidget {
+  border-radius: 10px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color:rgb(255, 221, 109); 
+  padding: 10px;
+  height: 260px;
+}
+h8 {
+  font-family: 'Comfortaa', cursive;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  background-color:rgb(255, 221, 109); 
+  border-radius: 10px;
+  width: 230px;
+  height: 240px;
+  border: 2px solid rgb(0, 0, 0);
+}
+.form-box {
+  width: 210px;
+  margin: 3px;
+  border-radius: 3px;
+}
+/*social media icon links box*/
+.social-media {
+  max-height: 35px;
+  max-width: auto;
+  margin: 3px;
+}
+.social-media:hover {
+  animation: shake 0.5s;
+  animation-iteration-count: infinite;
+}
+/* social media button shake code */
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+/*copyright section*/
+.copyrights-mobine {
+  display: none;
+}
+.copyrights {
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 6px;
+}
+.small-text {
+  font-size: 13px;
+  margin-top: 10px;
+  color: rgb(126, 126, 126)
+  /* border: solid 1px black; */
+}
+.our-names {
+  font-family: 'Comfortaa', cursive;
+  margin-top: 7px;
+  font-size: 16px;
+  color:rgb(231, 101, 68);
+}
+
+
+
+/* Restaurant and Rep/Rent Cards */
+.resto-cards-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.resto-cards {
+  display: flex;
+  margin: 20px;
+  flex-direction: column;
+  width: 300px;
+  padding: 5px;
+  border: solid 1px rgb(129, 122, 115);
+  border-radius: 5px;
+}
+.resto-img-box {
+  display: inline-block;
+  position: relative;
+}
+.resto-img-box img {
+  display: block;
+  border-radius: 8px;
+  height: auto;
+  width: 100%;
+}
+.resto-info-box {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.resto-text-title, .resto-text {
+  background: rgb(248, 241, 236);
+  box-sizing: border-box;
+  padding: 5px;
+  margin-top: 5px;
+}
+.resto-text {
+  font-size: 14px;
+  padding: 0;
+}
+.resto-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+.resto-data-left, .resto-data-right {
+  width: 49%;
+  box-sizing: border-box;
+}
+.resto-address, .resto-price-range, .resto-food-type, .resto-phone-number, .resto-hours, .resto-website {
+  background: rgb(255, 250, 245);
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 13px;
+  color:rgb(88, 51, 9);
+}
+
+
+/* Castle Cards */
+.castle-container {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.castle-card {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  flex-direction: column;
+  width: 80%;
+  padding: 5px;
+  border: solid 1px rgb(219, 219, 219);
+  border-radius: 5px;
+}
+.castle-img-box {
+  display: inline-block;
+  overflow: hidden;
+  position: relative;
+  border-radius: 8px;
+}
+.castle-img-box img {
+  display: block;
+  border-radius: 8px;
+  transition: 0.4s ease-in-out;
+  opacity: 1;
+  height: auto;
+  width: 100%;
+}
+.castle-img-box:hover img {
+  transform: scale(1.3);
+}
+.castleImgBoxOverlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.6s ease;
+  background-color: rgba(231, 101, 68, 0.521);
+}
+.castleImgBoxOverlay:hover {
+  opacity: 1;
+}
+.castle-img-box-text {
+  color: rgb(255, 255, 255);
+  font-size: 3vw;
+  position: absolute;
+  text-shadow: 1px 1px 3px rgb(0, 0, 0);
+  margin-top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.castle-click-button-0, .castle-click-button-1, .castle-click-button-2, .castle-click-button-3, .castle-click-button-4, .castle-click-button-5 {
+  height: 2.5vw; 
+  width: 2.5vw; 
+  cursor: pointer;
+  margin: 1vw auto 0px;
+  filter: drop-shadow(1px rgb(0, 0, 0));
+}
+.castle-click-button-0:hover, .castle-click-button-1:hover, .castle-click-button-2:hover, .castle-click-button-3:hover, .castle-click-button-4:hover, .castle-click-button-5:hover {
+  filter: drop-shadow(0 0);
+}
+
+/* BOTTOM CASTLE CARD */
+.bottom-castle-content-0, .bottom-castle-content-1, .bottom-castle-content-2, .bottom-castle-content-3, .bottom-castle-content-4, .bottom-castle-content-5 {
+  width: 80%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 5px;
+  overflow: hidden;
+  display: none;
+}
+.castle-pop-data {
+  width: 100%;
+  box-sizing: border-box;
+}
+.castle-pop-text-title {
+  background: rgb(248, 241, 236);
+  box-sizing: border-box;
+  font-style: bold;
+  padding: 5px;
+  font-size: 19px;
+}
+.castle-pop-text {
+  padding: 0;
+  font-size: 14px;
+}
+.castle-pop-data-2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.castle-map-box {
+  height: auto;
+  width: 30%;
+}
+.castle-map-img {
+  height: auto;
+  width: 100%;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+.info-box {
+  width: 70%;
+  height: 100%;
+}
+.castle-address, .castle-website, .castle-hours, .castle-phone {
+  background: rgb(255, 250, 245);
+  box-sizing: border-box;
+  font-size: 13px;
+  margin-top: 5px;
+  padding: 5px;
+  color:rgb(88, 51, 9);
+}
+
+
+
+@media screen and (min-width: 760px) {
+
+.pages_cover_mobile {
+  display: none;
+}
+.footer-phone {
+  display: none;
+}
+.copyrights-mobile {
+  display: none;
+}
+}
+
+
+
+/* Mobile Settings */
+@media screen and (max-width: 760px) {
+
+/*carousel*/
+.min-width-div {
+  display: none;
+}
+.pages_cover_mobile {
+  width: 100%;
+  height: 300px;
+  background-position:center;
+  display: flex;
+  background-size: cover;
+}
+.card-box-main {
+  width: 220px;
+  height: 270px;
+  padding: 20px;
+}
+.card-title {
+  font-size: 13px;
+  font-weight: bold;
+}
+.cards-container-main {
+  margin-top: 50px;
+}
+
+.heading-top-1 {
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+  padding: 9px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 120px;
+  width: 100%;
+  display: block;
+}
+.heading-top-2 {
+  display: none;
+}
+/*hero image*/
+.text-block-mobile {
+  background-color: rgb(0, 0, 0);
+  padding: 8px;
+  width: 100%;
+  height: 63px;
+  position: sticky;
+  margin-top: 420px;
+}
+.carouselText {
+  color : rgb(231, 101, 68);
+  white-space: nowrap;
+  font-weight : bold;
+  font-size: 5vw;
+  text-align: center;
+  margin: auto;
+}
+
+.castle-img-box-text {
+  font-size: 25px;
+}
+.castle-click-button-0, .castle-click-button-1, .castle-click-button-2, .castle-click-button-3, .castle-click-button-4, .castle-click-button-5 {
+  height: 20px; 
+  width: 20px; 
+}
+
+/*footer*/
+.footer {
+  display: none;
+}
+.footer-phone {
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color:rgb(224, 108, 79);
+}
+
+/* Dropup Form Button */
+.dropbtn, .contactbtn,.contactbtn-main {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  border: none;
+  border-radius: 6px;
+}
+.dropbtn:hover {
+  background-color:rgb(69, 157, 161);
+  color:rgb(255, 255, 255);
+}
+.contactbtn:hover {
+  background-color:rgb(69, 157, 161);
+  color:rgb(255, 255, 255);
+}
+#dropup {
+  display: inline-block;
+  position: sticky;
+  top: 20px;
+}
+#contact-drop {
+  display: none;
+  position: absolute;
+  background-color:rgb(255, 255, 255);
+  min-width: 200px;
+  min-height: 200px;
+  bottom: 50px;
+  z-index: 1;
+  padding: 10px;
+  border: 1 solid black;
+  border-radius: 6px;
+}
+
+/*copyrights*/
+.copyrights {
+  display: none;
+}
+.copyrights-mobile {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 10px;
+  padding: 6px;
+}
+.small-text {
+  font-size: 13px;
+  margin-top: 10px;
+  color: rgb(126, 126, 126)
+}
+.our-names {
+  font-family: 'Comfortaa', cursive;
+  margin-top: 7px;
+  font-size: 12px;
+  color:rgb(231, 101, 68);
+}
+.our-names-2 {
+  display: none;
+}
+.small-text-mobile {
+  font-size: 9px;
+}
+h6 {
+  font-size: 13px;
+}
+
+}
+
+
+@media screen and (max-width: 320px) {
+.our-names {
+  display: none;
+}
+.our-names-2 {
+  display: block;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 7px;
+  font-size: 15px;
+  color:rgb(231, 101, 68);
+}
+.carouselText {
+  margin-top: 10px;
+  font-size: 6vw;
+}
+h1 {
+  font-size: 20px;
+}
+h3{
+  font-size: 16px;
+}
+h5 {
+  font-size: 18px;
+}
+.heading-top-1 {
+  text-align: center;
+  background-color: black;
+  border-radius: 5px;
+  padding: 9px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  height: 90px;
+  width: 100%;
+  display: block;
+}
+.card-box-main {
+  padding: 5px;
+}
+}
