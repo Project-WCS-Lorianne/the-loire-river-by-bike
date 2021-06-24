@@ -508,7 +508,7 @@ h8 {
 .card-box-main {
   width: 220px;
   height: 270px;
-  padding: 20px;
+  padding: 10px;
 }
 .card-title {
   font-size: 13px;
@@ -550,6 +550,12 @@ h8 {
   margin: auto;
 }
 
+.castle-card {
+  width: 100%;
+}
+.bottom-castle-content-0, .bottom-castle-content-1, .bottom-castle-content-2, .bottom-castle-content-3, .bottom-castle-content-4, .bottom-castle-content-5 {
+  width: 100%;
+}
 .castle-img-box-text {
   font-size: 22px;
 }
@@ -678,7 +684,7 @@ h5 {
   padding: 9px;
   margin-top: 20px;
   margin-bottom: 30px;
-  height: 90px;
+  height: 100px;
   width: 100%;
   display: block;
 }
