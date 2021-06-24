@@ -506,8 +506,8 @@ h8 {
   background-size: cover;
 }
 .card-box-main {
-  width: 220px;
-  height: 270px;
+  width: 230px;
+  height: 280px;
   padding: 10px;
 }
 .card-title {
@@ -653,7 +653,7 @@ h6 {
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 465px) {
 .our-names {
   display: none;
 }
@@ -689,7 +689,13 @@ h5 {
   display: block;
 }
 .card-box-main {
-  padding: 5px;
+  width: 250px;
+  height: 270px;
+  padding: 10px;
+}
+.card-title {
+  font-size: 10px;
+  font-weight: bold;
 }
 .castle-card {
   width: 100%;
