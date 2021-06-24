@@ -511,7 +511,7 @@ h8 {
   padding: 10px;
 }
 .card-title {
-  font-size: 13px;
+  font-size: 15px;
   font-weight: bold;
 }
 .cards-container-main {
@@ -692,9 +692,10 @@ h5 {
   width: 250px;
   height: 270px;
   padding: 10px;
+  margin-bottom: 24px;
 }
 .card-title {
-  font-size: 10px;
+  font-size: 15px;
   font-weight: bold;
 }
 .castle-card {
