@@ -417,7 +417,7 @@ h8 {
 
 /* BOTTOM CASTLE CARD */
 .bottom-castle-content-0, .bottom-castle-content-1, .bottom-castle-content-2, .bottom-castle-content-3, .bottom-castle-content-4, .bottom-castle-content-5 {
-  width: 80%;
+  width: 60%;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
