@@ -84,6 +84,9 @@ a.carouselText:hover {
 .heading-top-1 {
   display: none;
 }
+.heading-top-2 {
+  margin-top: 20px;
+}
 
 h1 {
   color:rgb(231, 101, 68);
@@ -170,6 +173,9 @@ h3 {
   justify-content: space-around;
   align-items: center;
   background-color:rgb(224, 108, 79);
+  background-image: url("assets/icons-logo/route_info2.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
 }
 .footer-box {
   display: flex;
@@ -200,7 +206,7 @@ h3 {
 .weatherwidget {
   border-radius: 10px;
   border: 2px solid rgb(0, 0, 0);
-  background-color:rgb(255, 221, 109); 
+  background-color:rgb(250, 216, 185); 
   padding: 10px;
   height: 260px;
 }
@@ -213,7 +219,7 @@ h8 {
   align-items: center;
   text-align: center;
   padding: 10px;
-  background-color:rgb(255, 221, 109); 
+  background-color:rgb(250, 216, 185);
   border-radius: 10px;
   width: 230px;
   height: 240px;
@@ -603,7 +609,7 @@ h8 {
 #contact-drop {
   display: none;
   position: absolute;
-  background-color:rgb(255, 255, 255);
+  background-color:rgb(250, 216, 185);
   min-width: 200px;
   min-height: 200px;
   bottom: 50px;
