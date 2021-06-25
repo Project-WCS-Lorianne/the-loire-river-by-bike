@@ -38,7 +38,7 @@ a.nav-link:hover {
   min-width: 660px;
 }
 .carousel-item {
-  height: 450px;
+  height: 550px;
 }
 a.carouselText, .carouselDetail {
   color :rgb(255, 255, 255);
