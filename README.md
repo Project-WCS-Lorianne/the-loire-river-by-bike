@@ -1,6 +1,8 @@
 # The Loire River by Bike
 Website project @ Wild Code School, June 2021 EN remote, students: [Lorianne Aguilar](https://www.linkedin.com/in/lorianne-aguilar/), [Peter Borrow](https://www.linkedin.com/in/peter-borrow-a356a91a4/)
 
+Link: [https://project-wcs-lorianne.github.io/the-loire-river-by-bike](https://project-wcs-lorianne.github.io/the-loire-river-by-bike)
+
 
 ### Concept: 
 
