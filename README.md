@@ -23,8 +23,8 @@ The user has access from the main page to a dynamic menu that leads to each serv
 
 A theme of adventure and fun. A style that would bring to mind games: sleek and modern yet playful. The palette of coral-orange and teal blue seemed appropriate and reflected the light of a summer day as well as the blue of the Loire river.
 
-![Desktop](https://user-images.githubusercontent.com/78496780/124806730-4fe08980-df5d-11eb-83fa-8aa10c14ab64.png)
-![Mobile](https://user-images.githubusercontent.com/78496780/124806733-5111b680-df5d-11eb-87e0-b60230850564.png)
+![Mobile](https://user-images.githubusercontent.com/78496780/124807234-d85f2a00-df5d-11eb-81d4-7ea3bec97160.png)
+![Desktop](https://user-images.githubusercontent.com/78496780/124807237-d8f7c080-df5d-11eb-8fde-ab34e6ab4525.png)
 
 
 ### Tools used:
