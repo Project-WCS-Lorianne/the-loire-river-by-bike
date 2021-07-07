@@ -39,6 +39,7 @@ A theme of adventure and fun. A style that would bring to mind games: sleek and 
 - [FlatIcon](http://flaticon.com) (icons)
 - [Freepik](http://freepik.com) (icons)
 - [All Free Photos](http://all-free-photos.com) (castle photos)
+- Photoshop
 
 
 ### Components:
