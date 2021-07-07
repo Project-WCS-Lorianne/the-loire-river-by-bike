@@ -6,7 +6,7 @@ Link: [https://project-wcs-lorianne.github.io/the-loire-river-by-bike](https://p
 
 ### Concept: 
 
-A guide for cyclists interested in venturing the Loire River by Bike route in the Loire Valley, France. It will present:
+A guide for cyclists and adventurers interested in venturing the Loire River by Bike route (Loire à Vélo) in the Loire Valley, France. It presents:
 
 - An interactive map presenting the route, with offers for physical and digital app guides.
 - French castles within reach of the route, their basic information and placement.
@@ -16,12 +16,12 @@ A guide for cyclists interested in venturing the Loire River by Bike route in th
 
 ### Functionality: 
 
-The user has access from the main page to a dynamic menu the leads to each service. A sticky nav bar is present throughout the site, as well as a footer with social media links and a contact form. The desktop screen version offers a weather forecast widget of the center of the zone.
+The user has access from the main page to a dynamic menu that leads to each service. A sticky nav bar is present throughout the site, as well as a footer with social media links and a contact form. The desktop screen version offers a weather forecast widget of the center of the zone.
 
 
 ### Design concept:
 
-A theme of adventure and fun. A style that would bring to mind games, sleek and modern yet playful. The palette of coral-orange and teal blue seemed appropriate and reflected the light of a summer day as well as the blue of the Loire river.
+A theme of adventure and fun. A style that would bring to mind games: sleek and modern yet playful. The palette of coral-orange and teal blue seemed appropriate and reflected the light of a summer day as well as the blue of the Loire river.
 
 ![Desktop](https://i.postimg.cc/K4RDhQDg/lrb-big-screen.png)
 ![Mobile](https://i.postimg.cc/ThFqdmtN/lrb-small-screen.png)
