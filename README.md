@@ -1,5 +1,5 @@
 # The Loire River by Bike
-Website project @ Wild Code School, June 2021 EN remote: [Lorianne](https://www.linkedin.com/in/lorianne-aguilar/), [Peter](https://www.linkedin.com/in/peter-borrow-a356a91a4/)
+Website project @ Wild Code School, June 2021 EN remote, students: [Lorianne Aguilar](https://www.linkedin.com/in/lorianne-aguilar/), [Peter Borrow](https://www.linkedin.com/in/peter-borrow-a356a91a4/)
 
 
 ### Concept: 
@@ -21,8 +21,8 @@ The user has access from the main page to a dynamic menu the leads to each servi
 
 A theme of adventure and fun. A style that would bring to mind games, sleek and modern yet playful. The palette of coral-orange and teal blue seemed appropriate and reflected the light of a summer day as well as the blue of the Loire river.
 
-[Desktop](https://i.postimg.cc/K4RDhQDg/lrb-big-screen.png)
-[Mobile](https://i.postimg.cc/ThFqdmtN/lrb-small-screen.png)
+![Desktop](https://i.postimg.cc/K4RDhQDg/lrb-big-screen.png)
+![Mobile](https://i.postimg.cc/ThFqdmtN/lrb-small-screen.png)
 
 
 ### Tools used:
