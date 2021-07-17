@@ -102,9 +102,13 @@ h1 {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: row;
   width: 100%;
   margin-top: 20px;
+}
+.cards-container-second {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 .card-box-main {
   width: 300px;
