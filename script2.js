@@ -33,7 +33,7 @@ const restoCardInfo = [
     price: `€€`
   },
   {
-    name: "La Rivière Bleu",
+    name: "La Rivière Bleue",
     hours: "9 - 14 / 18 - 22",
     phone: "123 456 789",
     address: "25 rue St. Clair",
@@ -46,7 +46,7 @@ const restoCardInfo = [
     price: `€€€`
   },
   {
-    name: "Brasserie La Bouf",
+    name: "Brasserie La Beouf",
     hours: "9 - 14 / 18 - 22",
     phone: "123 456 789",
     address: "5 rue Résistance",
