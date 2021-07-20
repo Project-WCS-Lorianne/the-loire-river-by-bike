@@ -41,13 +41,10 @@ a.nav-link:hover {
   height: 550px;
 }
 a.carouselText, .carouselDetail {
-  color :rgb(255, 255, 255);
   margin: 0px 60% 0px 10px;
   white-space: nowrap;
   font-weight : bold;
   font-size: 43px;
-}
-a.carouselText:hover {
   color:rgb(231, 101, 68);
 }
 .carouselDetail {
